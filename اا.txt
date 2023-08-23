@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Web Page</title>
+</head>
+<body style="background-color: #DCDEDE">
+   
+    <button></button>
+    <a href="www.facebook.com" title="facebook" >
+    <img src="images/facebook.png" width="50" >
+</a>
+<a href="www.youtube.com" title="Youtube" >
+    <img src="images/youtube.png" width="50">
+</a>
+<hr>
+<audio src="Audio/y2mate.com - go gyal  ahzee edit audio.mp3"  controls>
+</audio>
+<hr>
+<video src="Vids/y2mate.com -  Dzanum  Teyadora  editedaudio headphone must_v720P.mp4" controls  muted  width="500">
+</video>
+<hr>
+<P style="color: green;">this is normal text</P>
+<P>this is <b>bold</b> text</P>
+<P>this is <sub>subscript</sub> text</P>
+<P>this is <sup>Super script</sup> text</P>
+<P>this is <mark>marked</mark> text</P>
+<P>this is <del>Deleted</del> text</P>
+<P>this is <small>small</small> text</P>
+<P style="color: rgba(200,150,0);">this is <big>Big</big> text</P>
+<hr>
+<h4>My some fonts </h4>
+<ul>
+    <li><sub>subscript</sub></li>
+    <li><sup>super script </sup></li>
+</ul>
+<hr>
+<table width="700" bgcolor="black">
+<tr bgcolor="gray" style="text-align: center;">
+<th>
+    Name
+</th>
+<th>
+    age
+</th>
+<th>
+    gender
+</th>
+<th>
+    pic 
+</th>
+</tr>
+<tr bgcolor="gray" style="text-align: center;">
+    <td width="100">
+        Osama
+    </td>
+    <td width="100" style="color: aqua;">
+        20
+    </td>
+    <td width="100">
+        Man
+    </td>
+    <td width="100">
+        <img src="images/Screenshot 2023-07-21 203620.png" width="100">  
+    </td>
+</tr> 
+
+<tr>
+</tr>
+</table>
+ <iframe  width= "1000"src="https://WWW.bing.com"> 
+</body>
+</html>

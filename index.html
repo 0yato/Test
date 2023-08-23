@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .underline-animation {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+  }
+  .underline-animation::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(to right, #007bff, #00ff00);
+    transition: width 0.3s ease-in-out;
+  }
+
+  .underline-animation:hover::before {
+    width: 100%;
+  }
+</style>
+<title>Text Hover Animation with Unhover Movement</title>
+</head>
+<body>
+  <h1>Hover Over Me</h1>
+  <p class="underline-animation">Hover over this text</p>
+  <hr>
+  <video src="Vids/370419744_6489834951131456_2885095246000947408_n.mp4" autoplay muted loop></video>
+</body>
+</html>
